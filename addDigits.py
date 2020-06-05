@@ -1,5 +1,6 @@
 #给定一个非负整数num，反复将各个位上的数字相加，直到结果为一位数
 #示例：输入38   输出2
+#难度：简单
 class Solution:
     def addDigits(self, num: int) -> int:
         a=str(num)
